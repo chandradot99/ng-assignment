@@ -1,3 +1,5 @@
 'use strict';
 
-angular.module('ngAssignment', []);
+angular.module('ngAssignment', [
+	'dashboard'
+]);
