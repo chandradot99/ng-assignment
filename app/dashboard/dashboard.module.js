@@ -1,3 +1,5 @@
 'use strict';
 
-angular.module('dashboard', []);
+angular.module('dashboard', [
+	'dashboard.imageList'
+	]);

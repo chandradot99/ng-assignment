@@ -2,4 +2,4 @@
 
 angular.module('ngAssignment', [
 	'dashboard'
-]);
+	]);

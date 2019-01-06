@@ -1,18 +1,3 @@
 <div class="container" ng-if="$ctrl.clubbedData">
-  <div class="row">
-    <div class="col side-card">
-		<div ng-repeat="data in $ctrl.clubbedData | limitTo : 1">
-		  <img class="img" ng-src="{{data.imageUrl}}">
-		  <p class="pt-1">{{data.title}}</p>
-		</div>
-    </div>
-    <div class="col">
-    	<div class="row">
-  			<div class="col card-grid" ng-repeat="data in $ctrl.clubbedData | limitTo : 4 : 1 ">
-    			<img class="img" ng-src="{{data.imageUrl}}">
-    			<p class="pt-1">{{data.title}}</p>
-  			</div>
-		</div>
-    </div>
-  </div>
+	<image-list-component data="$ctrl.clubbedData"></image-list-component>
 </div>
