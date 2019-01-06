@@ -15,12 +15,13 @@
 </head>
 
 <body>
-  <dashboard-component></dashboard-component>
+  <div ng-view></div>
 
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
   
-  <script src="app.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.routing.js"></script>
   <script src="dashboard/dashboard.module.js"></script>
   <script src="dashboard/dashboard.component.js"></script>
   <script src="dashboard/image-list/image-list.component.js"></script>
